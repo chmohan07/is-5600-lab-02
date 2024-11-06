@@ -115,6 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelector('#stockAddress').textContent = stock.address;
 
             document.querySelector('#logo').src = `logos/${symbol}.svg`;
+        
         }
       }
 
